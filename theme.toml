@@ -1,9 +1,9 @@
 name = "Cupper"
 license = "MIT"
 licenselink = "https://github.com/zwbetz-gh/cupper-hugo-theme/blob/master/LICENSE"
-description = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
+description = "W7DP Walla Walla Valley Amateur Radio Club."
 homepage = "https://github.com/zwbetz-gh/cupper-hugo-theme"
-tags = ["accessible", "blog", "documentation", "dark"]
+tags = ["accessible", "blog", "documentation", "Amateur Radio"]
 features = ["accessible", "blog", "documentation", "dark"]
 min_version = "0.81.0"
 
