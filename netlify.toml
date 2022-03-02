@@ -1,6 +1,6 @@
 [build]
   publish = "w7dp/public"
-  command = "cd exampleSite && hugo --themesDir ../.."
+  command = "cd w7dp && hugo --themesDir ../.."
 
 [build.environment]
   HUGO_VERSION = "0.83.1"
