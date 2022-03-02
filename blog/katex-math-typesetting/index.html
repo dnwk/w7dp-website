@@ -6,12 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.93.0" />
-  <link rel="canonical" href="https://dnwk.github.io/w7dp-website/multiple-expandable-test/" />
+  <link rel="canonical" href="https://dnwk.github.io/w7dp-website/blog/katex-math-typesetting/" />
 
   
     
-    <meta name="description" content="Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 – Multiple expandable shortcodes do not work if they have the same inner text.
- expandable 1     Same inner text.    expandable 2     Same inner text.    expandable 3     Different inner text.   ">
+    <meta name="description" content="Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
+Note: Use the online reference of supported TeX functions.
+Some math:
+$$ \varphi = \dfrac{1&#43;\sqrt5}{2}= 1.6180339887… $$  $$ \varphi = \dfrac{1&#43;\sqrt5}{2}= 1.6180339887… $$
+More math:
+$$ \varphi = 1&#43;\frac{1} {1&#43;\frac{1} {1&#43;\frac{1} {1&#43;\cdots} } } $$  $$ \varphi = 1&#43;\frac{1} {1&#43;\frac{1} {1&#43;\frac{1} {1&#43;\cdots} } } $$">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://dnwk.github.io/w7dp-website/apple-touch-icon.png">
@@ -61,7 +65,7 @@
 
   
   
-  <title>Multiple Expandable Test | W7DP Walla Walla Valley Amateur Radio Club</title>
+  <title>Katex Math Typesetting | W7DP Walla Walla Valley Amateur Radio Club</title>
 </head>
 
   <body>
@@ -213,7 +217,7 @@
       
       
       
-      <a href="/w7dp-website/post/" aria-current="page">
+      <a href="/w7dp-website/post/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -244,130 +248,23 @@
         <div>
           
   <main id="main">
-    <h1>
-      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-        <use xlink:href="#bookmark"></use>
-      </svg>
-      Multiple Expandable Test
-    </h1>
-
-    <div class="date">
-      
-      
-      <strong>Publish date: </strong>Jun 17, 2020
-      
-        
-          <br>
-          <strong>Last updated: </strong>Mar 1, 2022
-        
-      
-    </div>
-
-    
-      <div class="tags">
-        <strong>Tags: </strong>
-        <ul aria-label="tags">
-          
-            <li>
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              
-              <a href="/w7dp-website/tags/issue/">issue</a>
-            </li>
-          
-        </ul>
-      </div>
-    
-
-    
-
-
-    <p>Testing out GitHub issue <a href="https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36">https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36</a> &ndash; Multiple expandable shortcodes do not work if they have the same inner text.</p>
-<div class="expandable-section">
-  
-    <h2>
-  
-    
-    
-    
-    
-    
-    <button aria-expanded="false" data-expands="js-expandable-c5cfd411c521be7b4d0db4df5ed8ae9c">
-      <span class="expandable-label">expandable 1</span>
-      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
-        <g transform="translate(0 -981.5)">
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-        </g>
-      </svg>
-    </button>
-  
-    </h2>
-  
-  <div id="js-expandable-c5cfd411c521be7b4d0db4df5ed8ae9c" hidden>
-    Same inner text.
-  </div>
-</div>
-
-<div class="expandable-section">
-  
-    <h2>
-  
-    
-    
-    
-    
-    
-    <button aria-expanded="false" data-expands="js-expandable-e45bdcd0b9e5cfd2d185e4cda4bf171c">
-      <span class="expandable-label">expandable 2</span>
-      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
-        <g transform="translate(0 -981.5)">
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-        </g>
-      </svg>
-    </button>
-  
-    </h2>
-  
-  <div id="js-expandable-e45bdcd0b9e5cfd2d185e4cda4bf171c" hidden>
-    Same inner text.
-  </div>
-</div>
-
-<div class="expandable-section">
-  
-    <h2>
-  
-    
-    
-    
-    
-    
-    <button aria-expanded="false" data-expands="js-expandable-043441d41a52c2043afe9486d176efc9">
-      <span class="expandable-label">expandable 3</span>
-      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
-        <g transform="translate(0 -981.5)">
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-        </g>
-      </svg>
-    </button>
-  
-    </h2>
-  
-  <div id="js-expandable-043441d41a52c2043afe9486d176efc9" hidden>
-    Different inner text.
-  </div>
-</div>
-
+    <h1>Katex Math Typesetting</h1>
+    <p>Enable Katex in the config file by setting the <code>katex</code> param to <code>true</code>. This will import the necessary Katex CSS/JS.</p>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">supported TeX functions</a>.</p>
+<p>Some math:</p>
+<pre><code>$$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$
+</code></pre>
+<p>$$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$</p>
+<p>More math:</p>
+<pre><code>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+$$
+</code></pre>
+<p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
 
   </main>
-  <div id="disqus-container">
-  
-</div>
-
 
           
             <footer role="contentinfo">

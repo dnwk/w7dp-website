@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.93.0" />
-  <link rel="canonical" href="https://dnwk.github.io/w7dp-website/creating-a-new-theme/" />
+  <link rel="canonical" href="https://dnwk.github.io/w7dp-website/blog/creating-a-new-theme/" />
 
   
     
@@ -213,7 +213,7 @@ We’ll start with creating a new site with a very basic template.">
       
       
       
-      <a href="/w7dp-website/post/" aria-current="page">
+      <a href="/w7dp-website/post/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -244,153 +244,7 @@ We’ll start with creating a new site with a very basic template.">
         <div>
           
   <main id="main">
-    <h1>
-      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-        <use xlink:href="#bookmark"></use>
-      </svg>
-      Creating a New Theme
-    </h1>
-
-    <div class="date">
-      
-      
-      <strong>Publish date: </strong>Sep 28, 2014
-      
-        
-          <br>
-          <strong>Last updated: </strong>Mar 1, 2022
-        
-      
-    </div>
-
-    
-      <div class="tags">
-        <strong>Tags: </strong>
-        <ul aria-label="tags">
-          
-            <li>
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              
-              <a href="/w7dp-website/tags/hugo/">hugo</a>
-            </li>
-          
-            <li>
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              
-              <a href="/w7dp-website/tags/theme/">theme</a>
-            </li>
-          
-            <li>
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              
-              <a href="/w7dp-website/tags/command-line/">command-line</a>
-            </li>
-          
-        </ul>
-      </div>
-    
-
-    
-  <nav class="toc" aria-labelledby="toc-heading">
-    <strong id="toc-heading">Table of Contents</strong>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#some-definitions">Some Definitions</a>
-      <ul>
-        <li><a href="#skins">Skins</a></li>
-        <li><a href="#the-home-page">The Home Page</a></li>
-        <li><a href="#site-configuration-file">Site Configuration File</a></li>
-        <li><a href="#content">Content</a>
-          <ul>
-            <li><a href="#front-matter">Front Matter</a></li>
-            <li><a href="#markdown">Markdown</a></li>
-          </ul>
-        </li>
-        <li><a href="#template-files">Template Files</a>
-          <ul>
-            <li><a href="#single-template">Single Template</a></li>
-            <li><a href="#list-template">List Template</a></li>
-            <li><a href="#partial-template">Partial Template</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-site">Create a New Site</a>
-      <ul>
-        <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
-        <li><a href="#test-the-new-site">Test the New Site</a></li>
-      </ul>
-    </li>
-    <li><a href="#create-a-new-theme">Create a New Theme</a>
-      <ul>
-        <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
-        <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
-        <li><a href="#generate-the-site">Generate the Site</a>
-          <ul>
-            <li><a href="#the-home-page-1">The Home Page</a></li>
-            <li><a href="#the-magic-of-static">The Magic of Static</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
-      <ul>
-        <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
-        <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
-        <li><a href="#live-reload">Live Reload</a></li>
-        <li><a href="#development-commands">Development Commands</a></li>
-      </ul>
-    </li>
-    <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
-      <ul>
-        <li><a href="#make-a-static-home-page">Make a Static Home Page</a>
-          <ul>
-            <li><a href="#live-reload-1">Live Reload</a></li>
-          </ul>
-        </li>
-        <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a>
-          <ul>
-            <li><a href="#create-new-posts">Create New Posts</a></li>
-          </ul>
-        </li>
-        <li><a href="#list-and-single-templates">List and Single Templates</a></li>
-        <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
-        <li><a href="#add-content-to-the-posts">Add Content to the Posts</a>
-          <ul>
-            <li><a href="#update-the-template-file">Update the Template File</a></li>
-          </ul>
-        </li>
-        <li><a href="#linking-to-content">Linking to Content</a></li>
-        <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
-      </ul>
-    </li>
-    <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
-    <li><a href="#sharing-templates">Sharing Templates</a>
-      <ul>
-        <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
-        <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
-        <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
-      </ul>
-    </li>
-    <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
-      <ul>
-        <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
-        <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </nav>
-
-
-
+    <h1>Creating a New Theme</h1>
     <h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
@@ -1248,10 +1102,6 @@ $ vi themes/zafta/layouts/_default/single.html
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
 
   </main>
-  <div id="disqus-container">
-  
-</div>
-
 
           
             <footer role="contentinfo">

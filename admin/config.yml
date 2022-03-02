@@ -11,7 +11,7 @@ public_folder: "/uploads" # The src attribute for uploaded media will begin with
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "w7dp/content/post"
+    folder: "w7dp/content/blog"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
@@ -29,7 +29,7 @@ collections:
     create: false
     slug: "{{slug}}"
     files:
-      - file: "w7dp/_index.md"
+      - file: "w7dp/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
