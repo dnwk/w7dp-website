@@ -12,7 +12,6 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "w7dp/content/blog"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
