@@ -19,5 +19,14 @@ Hi
  d a  Hi This is important</description>
     </item>
     
+    <item>
+      <title>SCHEDULES</title>
+      <link>https://dnwk.github.io/w7dp-website/pages/schedules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dnwk.github.io/w7dp-website/pages/schedules/</guid>
+      <description>Events Schedule    Date Event     4 Dec 2021 Parade of Lights   21 May 2022 Onion Man Triathlon   3-5 Jun 2022 Tour of Walla Walla Bicycle Race    </description>
+    </item>
+    
   </channel>
 </rss>
