@@ -13,5 +13,5 @@ title: SCHEDULES
 | DATE / TIME         | MEETING                            |
 |---------------------|------------------------------------|
 | 1st Tuesday of the month at 7pm | W7DP Club Meeting      |
-| 3rd Monday of the month at 7pm | ARES Meeting            |
-| * There are no meetings in December. Instead there will be a Pot Luck |
+| 3rd Monday of the month at 7pm  | ARES Meeting           |
+| 1st Tuesday in December         | Pot Luck               |
