@@ -43,8 +43,8 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Schedule
-      url: /pages/schedules/
+    - name: Schedules
+      url: /pages/SCHEDULES/
       weight: 2
     - name: Blog
       url: /blog/
