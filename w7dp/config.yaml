@@ -44,7 +44,7 @@ menu:
       url: /
       weight: 1
     - name: Schedule
-      url: /pages/schedule/
+      url: /pages/schedules/
       weight: 2
     - name: Blog
       url: /blog/
