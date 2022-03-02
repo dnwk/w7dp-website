@@ -4,6 +4,8 @@ title: Home
 ---
 This is an example page for W7DP Club.
 
-
-
 Additional page
+
+**New**
+
+<span style="font-weight:bold">This is Bold.</span>
